@@ -1,0 +1,24 @@
+@-webkit-keyframes rotar{
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        width: 35%;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        width: 25%;
+    }
+  }
+@keyframes rotar{
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        width: 35%;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        width: 25%;
+    }
+}

@@ -1,0 +1,68 @@
+@media screen and
+(min-width: 640px) and (max-width: 1024px){
+    body{
+        font-size: 15px;
+    }
+    .info-principal{
+        display: block;
+        height: 600px;
+    }
+    .nav{
+        height: 700px;
+    }
+    .boton{
+        font-size: 13px;
+    }
+    .card{
+        width: auto;
+        height: 400px;
+    }
+    .aside{
+        width: auto;
+        height: 300px;
+    }
+    .contenido-card{
+        margin: 10px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenido-card img{
+        width: 30%;
+    }
+
+    /*NOSOTROS*/
+    .contenedor-nosotros{
+        height: 700px;
+    }
+    .miembro-card{
+        padding-top: 10px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .miembro-card img{
+        width: 50px;
+        padding-bottom: 10px;
+    }
+
+    /*AXOLOTS*/
+    .sobre-axolotls{
+        height: 700px;
+        font-size: 13px;
+    }
+    .img-axolotl{
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .img-axolotl img{
+        width: 90%;
+        height: 90%;
+    }
+    
+    /*COLABORADORES*/
+    .card-colab img{
+        width: 20%;
+    }
+    .card-colab p{
+        font-size: 12px;
+    }
+}

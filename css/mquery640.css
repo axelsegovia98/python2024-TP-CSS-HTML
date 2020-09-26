@@ -1,0 +1,111 @@
+@media screen and (max-width: 640px) {
+    body{
+        font-size: 13px;
+    }
+    .contenedor{
+        height: 50px;
+    }
+    .logo{
+        width: 45%;
+    }
+    .header-titulo h1{
+        padding-right: 80px;
+        font-size: 4vw;
+    }
+    .info-principal{
+        display: block;
+        height: 600px;
+    }
+    .nav{
+        height: 700px;
+    }
+    .boton{
+        margin: 5px 2px;
+        font-size: 11px;
+    }
+    .boton img{
+        height: 15px;
+        height: 15px;
+    }
+    .card{
+        width: auto;
+        height: 400px;
+    }
+    .aside{
+        width: auto;
+        height: 300px;
+    }
+    .contenido-card{
+        margin: 10px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenido-card img{
+        width: 30%;
+    }
+
+    /*NOSOTROS*/
+    .contenedor-nosotros{
+        height: 700px;
+    }
+    .nosotros-descripcion p{
+        margin: 0px 20px;
+    }
+    .miembro-card{
+        padding-top: 10px;
+        font-size: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .miembro-card img{
+        width: 50px;
+        padding-bottom: 5px;
+    }
+
+    /*AXOLOTS*/
+    .sobre-axolotls{
+        height: 700px;
+        font-size: 13px;
+    }
+    .img-axolotl{
+        margin: 0;
+        padding: 0;
+    }
+    .img-axolotl img{
+        width: 90%;
+        height: 90%;
+    }
+    .info-axolotls{
+        margin: 0px 10px;
+    }
+    
+    /*COLABORADORES*/
+    .card-colab img{
+        width: 20%;
+    }
+    .card-colab p{
+        font-size: 12px;
+    }
+
+    /*COLABORADORES*/
+    .card-colab{
+        width: 45%;
+        margin-top: 10px;
+    }
+    .card-colab p{
+        font-size: 11px;
+    }
+    .card-colab:first-child{
+        margin-top: 40px;
+    }
+    .card-colab:nth-child(2){
+        margin-top: 40px;
+    }
+
+    /*CONTACTO*/
+    .formulario{
+        width: 80%;
+    }
+}
+
